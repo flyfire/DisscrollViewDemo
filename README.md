@@ -90,6 +90,8 @@ Usage:
 </com.solarexsoft.disscrollview.DisscrollView>
 ```
 
+Detailed attributes see [attrs.xml](https://github.com/flyfire/DisscrollViewDemo/blob/master/disscrollview/src/main/res/values/attrs.xml)
+
 Demo video on youtube:
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=piHcvWvSLiY
 " target="_blank"><img src="http://img.youtube.com/vi/piHcvWvSLiY/0.jpg" width="560" height="315" border="10" /></a>
