@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <declare-styleable name="DisscrollLayout_LayoutParams">
+    <declare-styleable name="DisscrollView_LayoutParams">
         <attr name="disscroll_alpha" format="boolean"/>
         <attr name="disscroll_scaleX" format="boolean"/>
         <attr name="disscroll_scaleY" format="boolean"/>

@@ -1,19 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<com.solarexsoft.disscrollview.DisscrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:disscroll="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.solarexsoft.disscrollviewdemo.MainActivity">
+    android:layout_height="match_parent">
+    <com.solarexsoft.disscrollview.DisscrollLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            disscroll:disscroll_alpha="true"
+            android:layout_margin="30dp"
+            android:src="@drawable/hellokitty1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:textSize="30sp"
+            android:textColor="@android:color/holo_purple"
+            android:layout_margin="30dp"
+            android:text="@string/intro"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hellokitty2"
+            android:layout_gravity="center"
+            android:layout_margin="30dp"
+            disscroll:disscroll_translation="fromBottom|fromRight"
+            disscroll:disscroll_alpha="true"
+            disscroll:disscroll_scaleX="true"
+            disscroll:disscroll_scaleY="true"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="45sp"
+            android:text="@string/author"
+            android:layout_margin="30dp"
+            disscroll:disscroll_fromBgColor="@android:color/holo_blue_light"
+            disscroll:disscroll_toBgColor="@android:color/holo_green_dark"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hellokitty3"
+            android:layout_gravity="center"
+            android:layout_margin="30dp"
+            disscroll:disscroll_scaleX="true"
+            disscroll:disscroll_scaleY="true"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hellokitty4"
+            android:layout_margin="30dp"
+            android:layout_gravity="center"
+            disscroll:disscroll_alpha="true"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="45sp"
+            android:text="@string/history"
+            android:layout_margin="30dp"
+            disscroll:disscroll_translation="fromBottom|fromLeft"
+            disscroll:disscroll_alpha="true"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hellokitty5"
+            android:layout_margin="30dp"
+            android:layout_gravity="center"
+            disscroll:disscroll_translation="fromTop|fromRight"
+            disscroll:disscroll_scaleX="true"
+            disscroll:disscroll_scaleY="true"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+    </com.solarexsoft.disscrollview.DisscrollLayout>
 
-</android.support.constraint.ConstraintLayout>
+</com.solarexsoft.disscrollview.DisscrollView>
