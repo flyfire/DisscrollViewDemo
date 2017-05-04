@@ -114,7 +114,7 @@ public class NestedFrameLayout extends FrameLayout implements DisscrollListener 
     @Override
     public void onResetDisscroll() {
         if (mDisscrollAlpha) {
-            setAlpha(0);
+            setAlpha(1);
         }
         if (mDisscrollScaleX) {
             setScaleX(1);

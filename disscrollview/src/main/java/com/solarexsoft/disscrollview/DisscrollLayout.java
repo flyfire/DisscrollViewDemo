@@ -11,15 +11,16 @@ import android.widget.LinearLayout;
 
 public class DisscrollLayout extends LinearLayout {
     public DisscrollLayout(Context context) {
-        super(context);
+        this(context, null);
     }
 
     public DisscrollLayout(Context context, @Nullable AttributeSet attrs) {
-        super(context, attrs);
+        this(context, attrs, 0);
     }
 
     public DisscrollLayout(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
+        setOrientation(LinearLayout.VERTICAL);
     }
 
     @Override

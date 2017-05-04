@@ -8,24 +8,24 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <ImageView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="600dp"
             disscroll:disscroll_alpha="true"
-            android:layout_margin="30dp"
+            android:layout_margin="10dp"
             android:src="@drawable/hellokitty1"/>
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="600dp"
-            android:textSize="30sp"
+            android:textSize="15sp"
             android:textColor="@android:color/holo_purple"
-            android:layout_margin="30dp"
+            android:layout_margin="10dp"
             android:text="@string/intro"/>
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/hellokitty2"
             android:layout_gravity="center"
-            android:layout_margin="30dp"
+            android:layout_margin="10dp"
             disscroll:disscroll_translation="fromBottom|fromRight"
             disscroll:disscroll_alpha="true"
             disscroll:disscroll_scaleX="true"
@@ -33,7 +33,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="45sp"
+            android:textSize="15sp"
             android:text="@string/author"
             android:layout_margin="30dp"
             disscroll:disscroll_fromBgColor="@android:color/holo_blue_light"
@@ -43,20 +43,20 @@
             android:layout_height="wrap_content"
             android:src="@drawable/hellokitty3"
             android:layout_gravity="center"
-            android:layout_margin="30dp"
+            android:layout_margin="10dp"
             disscroll:disscroll_scaleX="true"
             disscroll:disscroll_scaleY="true"/>
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/hellokitty4"
-            android:layout_margin="30dp"
+            android:layout_margin="10dp"
             android:layout_gravity="center"
             disscroll:disscroll_alpha="true"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="45sp"
+            android:textSize="15sp"
             android:text="@string/history"
             android:layout_margin="30dp"
             disscroll:disscroll_translation="fromBottom|fromLeft"
@@ -65,7 +65,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/hellokitty5"
-            android:layout_margin="30dp"
+            android:layout_margin="10dp"
             android:layout_gravity="center"
             disscroll:disscroll_translation="fromTop|fromRight"
             disscroll:disscroll_scaleX="true"
