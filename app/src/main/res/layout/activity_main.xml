@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <com.solarexsoft.disscrollview.DisscrollLayout
+        android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <ImageView
@@ -15,8 +16,9 @@
             android:src="@drawable/hellokitty1"/>
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="600dp"
+            android:layout_height="wrap_content"
             android:textSize="15sp"
+            android:gravity="center"
             android:textColor="@android:color/holo_purple"
             android:layout_margin="10dp"
             android:text="@string/intro"/>
@@ -24,16 +26,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/hellokitty2"
-            android:layout_gravity="center"
             android:layout_margin="10dp"
+            android:scaleType="centerCrop"
             disscroll:disscroll_translation="fromBottom|fromRight"
             disscroll:disscroll_alpha="true"
             disscroll:disscroll_scaleX="true"
             disscroll:disscroll_scaleY="true"/>
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="15sp"
+            android:gravity="center"
             android:text="@string/author"
             android:layout_margin="30dp"
             disscroll:disscroll_fromBgColor="@android:color/holo_blue_light"
@@ -44,6 +47,7 @@
             android:src="@drawable/hellokitty3"
             android:layout_gravity="center"
             android:layout_margin="10dp"
+            android:scaleType="centerCrop"
             disscroll:disscroll_scaleX="true"
             disscroll:disscroll_scaleY="true"/>
         <ImageView
@@ -51,13 +55,15 @@
             android:layout_height="wrap_content"
             android:src="@drawable/hellokitty4"
             android:layout_margin="10dp"
-            android:layout_gravity="center"
-            disscroll:disscroll_alpha="true"/>
+            android:scaleType="fitXY"
+            disscroll:disscroll_alpha="true"
+            disscroll:disscroll_translation="fromLeft|fromTop"/>
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="15sp"
             android:text="@string/history"
+            android:gravity="center"
             android:layout_margin="30dp"
             disscroll:disscroll_translation="fromBottom|fromLeft"
             disscroll:disscroll_alpha="true"/>
@@ -66,7 +72,7 @@
             android:layout_height="wrap_content"
             android:src="@drawable/hellokitty5"
             android:layout_margin="10dp"
-            android:layout_gravity="center"
+            android:scaleType="fitXY"
             disscroll:disscroll_translation="fromTop|fromRight"
             disscroll:disscroll_scaleX="true"
             disscroll:disscroll_scaleY="true"/>
